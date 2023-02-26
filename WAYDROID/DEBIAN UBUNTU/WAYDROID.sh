@@ -1,13 +1,6 @@
 #!/bin/bash
 
-xdg-open https://github.com/casualsnek/waydroid_script
+sudo apt install curl ca-certificates -y
+curl https://repo.waydro.id | sudo bash
+sudo apt install waydroid -y
 
-sudo apt install lzip sqlite -y
-
-git clone https://github.com/casualsnek/waydroid_script
-cd waydroid_script
-sudo python3 -m pip install -r requirements.txt
-sudo python3 main.py [-i/-g/-n/-h/-w]
-
-sudo python3 main.py -g
-waydroid show-full-ui
