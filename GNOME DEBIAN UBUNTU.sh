@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Flatpak and GNOME Software plugin for Flatpak
-sudo apt install xclip flatpak gnome-software-plugin-flatpak -y
+sudo apt install neofetch xclip flatpak gnome-software-plugin-flatpak -y
 sudo apt-get remove thunderbird -y
 
 # Add Flathub repository as a remote source
