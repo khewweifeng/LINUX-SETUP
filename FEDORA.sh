@@ -5,11 +5,9 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 sudo dnf remove thunderbird -y
 
-sudo dnf install xclip neofetch nload chrome-remote-desktop fedora-workstation-repositories -y
+sudo dnf install xclip neofetch nload chrome-remote-desktop fedora-workstation-repositories chromium -y
 
 sudo dnf config-manager --set-enabled google-chrome
-
-sudo dnf install google-chrome-stable -y
 
 flatpak install flathub org.gnome.Extensions -y
 
