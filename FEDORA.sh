@@ -7,8 +7,6 @@ sudo dnf remove thunderbird -y
 
 sudo dnf install xclip neofetch nload chrome-remote-desktop fedora-workstation-repositories chromium -y
 
-sudo dnf config-manager --set-enabled google-chrome
-
 flatpak install flathub org.gnome.Extensions -y
 
 sudo reboot
