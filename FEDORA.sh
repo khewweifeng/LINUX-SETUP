@@ -5,7 +5,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 sudo dnf remove thunderbird evolution -y
 
-sudo dnf install xclip neofetch nload chrome-remote-desktop fedora-workstation-repositories chromium -y
+sudo dnf install xclip neofetch nload chrome-remote-desktop fedora-workstation-repositories chromium wine -y
 
 flatpak install flathub org.gnome.Extensions -y
 
