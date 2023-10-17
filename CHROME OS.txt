@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Install Flatpak and GNOME Software plugin for Flatpak
 sudo apt install neofetch xclip flatpak -y
 

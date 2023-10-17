@@ -1,4 +1,3 @@
-#!/bin/bash
 vmc start termina
 sleep 5s
 lxc config set penguin security.nesting true
