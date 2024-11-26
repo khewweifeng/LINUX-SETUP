@@ -1,6 +1,6 @@
 # Install Flatpak and GNOME Software plugin for Flatpak
 ```
-sudo apt install neofetch xclip flatpak -y
+sudo apt install fastfetch xclip flatpak -y
 ```
 # Add Flathub repository as a remote source
 ```
